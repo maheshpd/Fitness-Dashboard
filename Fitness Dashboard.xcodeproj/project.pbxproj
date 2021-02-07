@@ -11,6 +11,7 @@
 		B5546E3E25D0383100393BAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5546E3D25D0383100393BAE /* ContentView.swift */; };
 		B5546E4025D0383A00393BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5546E3F25D0383A00393BAE /* Assets.xcassets */; };
 		B5546E4325D0383A00393BAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5546E4225D0383A00393BAE /* Preview Assets.xcassets */; };
+		B5546E4D25D038E300393BAE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5546E4C25D038E300393BAE /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B5546E3F25D0383A00393BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5546E4225D0383A00393BAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5546E4425D0383A00393BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5546E4C25D038E300393BAE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		B5546E3A25D0383000393BAE /* Fitness Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				B5546E4B25D038D400393BAE /* View */,
 				B5546E3B25D0383000393BAE /* Fitness_DashboardApp.swift */,
 				B5546E3D25D0383100393BAE /* ContentView.swift */,
 				B5546E3F25D0383A00393BAE /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				B5546E4225D0383A00393BAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5546E4B25D038D400393BAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5546E4C25D038E300393BAE /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5546E3E25D0383100393BAE /* ContentView.swift in Sources */,
+				B5546E4D25D038E300393BAE /* Home.swift in Sources */,
 				B5546E3C25D0383100393BAE /* Fitness_DashboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
